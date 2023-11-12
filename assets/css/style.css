@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  cursor: none;
+}
+
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+}
+body .flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+body .flex .ball {
+  position: absolute;
+  height: 4rem;
+  width: 4rem;
+  background-color: black;
+  border-radius: 50%;
+}
+body .flex .score {
+  height: 4rem;
+  width: 5rem;
+  background-color: rgb(225, 0, 255);
+  position: absolute;
+  bottom: 0;
+}
+body .flex .number {
+  position: absolute;
+  top: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
